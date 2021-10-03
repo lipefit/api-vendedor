@@ -11,5 +11,5 @@ API construída em Laravel para:
 - Listar vendas por vendedero: [GET] /sales/{id}
 
 ## Envio de e-mail
-O envio de email foi configurado através da função de schedule do Laravel utilizando Commands.
+O envio de email foi configurado através da função de schedule do Laravel utilizando Commands.<br />
 O código para envio de e-mail pode ser visto em App/Console
