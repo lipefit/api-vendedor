@@ -8,7 +8,7 @@ API construída em Laravel para:
 - Cadastrar vendedor: [POST] /sellers
 - Cadastrar venda: [POST] /sales
 - Listar vendedores; [GET] /sellers/getAll
-- Listar vendas por vendedero: [GET] /sales/{id}
+- Listar vendas por vendeder: [GET] /sales/{id}
 
 ## Envio de e-mail
 O envio de email foi configurado através da função de schedule do Laravel utilizando Commands.<br />
