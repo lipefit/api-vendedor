@@ -1,6 +1,6 @@
 ## Sobre
 API construída em Laravel para:
-- Cadastrar vendedores e listar vendedores.
+- Cadastrar e listar vendedores.
 - Cadastrar e listar vendas.
 - Enviar relatório de vendas por email ao final de cada dia. (18:00)
 
@@ -8,7 +8,7 @@ API construída em Laravel para:
 - Cadastrar vendedor: [POST] /sellers
 - Cadastrar venda: [POST] /sales
 - Listar vendedores; [GET] /sellers/getAll
-- Listar vendas por vendeder: [GET] /sales/{id}
+- Listar vendas por vendedor: [GET] /sales/{id}
 
 ## Envio de e-mail
 O envio de email foi configurado através da função de schedule do Laravel utilizando Commands.<br />
